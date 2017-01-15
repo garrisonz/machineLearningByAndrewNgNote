@@ -1,5 +1,3 @@
-
-==================================
 1.4 Linear Algebra Review
 
 1.4.1 Matrices and Vectors
