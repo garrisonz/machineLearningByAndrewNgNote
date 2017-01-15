@@ -31,8 +31,7 @@ E.g.,
 +
 [[3, 0.4],
 [4, 2],
-[1, 4]]
-=
+[1, 4]] = 
 [[4, 0.4],
 [6, 7],
 [4, 5]]
@@ -42,8 +41,7 @@ multiply 3 by an this matrix : take the elements of the matrix and multiply them
 * 
 [[1, 0]
 [2, 5]
-[3, 1]]
-=
+[3, 1]] = 
 [[3, 0]
 [6, 15]
 [9, 3]]
