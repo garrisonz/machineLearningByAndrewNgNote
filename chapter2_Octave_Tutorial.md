@@ -9,6 +9,7 @@ Octave, Matlab, Python, NumPy, and R.
 Python, Numpy syntax is clunkier than the Octave syntax.
 
 start octave
+```shell
 >> octave --no-gui
 >> ~=           % means unequals
 >> disp('xxx')  % print xxx
@@ -23,8 +24,10 @@ ans =
 >> size(A)      % show the size of A
 >> rand(47, 1)  % generate an 47 rows, 1 column matrix with the random value (0 < x < 1)
 >> ones(47, 1)  % generate an 47 rows, 1 column matrix with the value 1.
+```
 
 2) Moving Data Around
+```shell
 >> A = [1 2; 3 4; 5 6]
 A =
    1   2
@@ -83,10 +86,11 @@ C =
     1    2   11   12
     3    4   13   14
     5    6   15   16
-
+```
 
 
 construct matrices 
+```shell
 >> A = rand(3, 1) * 1000
 A =
    813.14
@@ -113,10 +117,11 @@ C =
      1.0000
      1.0000
      1.0000
-
+```
 
 
 3) Computing on Data
+```shell
 >> A = [1 2; 3 4; 5 6]
 A =
    1   2
@@ -192,9 +197,4 @@ ans =  15
 >> [val, ind] = max(a)
 val =  15
 ind =  2
-
-
-
-
-
-
+```
